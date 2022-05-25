@@ -28,4 +28,4 @@ function checkwords() {
   });
 
   displayitems(filtered);
-}
+};
