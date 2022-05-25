@@ -1,0 +1,14 @@
+.searchBar {
+  border: solid;
+  border-color: blue;
+}
+.fullbody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-Window{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
