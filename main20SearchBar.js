@@ -24,7 +24,7 @@ inputWindow.oninput = checkwords;
 function checkwords() {
   let input = inputWindow.value;
   let filtered = fruits.filter(function (el) {
-    return el.includes(input);
+    return el.startsWith(input);
   });
 
   displayitems(filtered);
