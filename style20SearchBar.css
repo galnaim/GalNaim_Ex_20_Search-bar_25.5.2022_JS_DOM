@@ -1,6 +1,13 @@
-.searchBar {
-  border: solid;
-  border-color: blue;
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  background-image: url("https://i.imgflip.com/1m06z4.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .fullbody {
@@ -11,6 +18,7 @@
 }
 
 .input-Window{
+<<<<<<< HEAD
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -24,4 +32,49 @@
 .menu .il{
   background-color: rgb(28, 28, 255);
   padding:5px;
+=======
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input:focus {
+  outline: none;
+}
+.searchBar {
+  min-height: 80vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+input, .item, .no-result {
+  color: white;
+  margin: 10px;
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 15px;
+  font-size: medium;
+  width: 250px;
+  height: 40px;
+}
+.no-result {
+  background-color: rgb(206, 65, 65);
+}
+.item {
+  background-color: rgb(48, 174, 37);
+}
+::placeholder {
+  color: white;
+>>>>>>> 14b0a56750ff366c4e5d7f378d4601f679f2fd8d
 }
