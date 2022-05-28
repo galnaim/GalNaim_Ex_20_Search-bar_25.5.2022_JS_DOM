@@ -7,6 +7,7 @@ function displayitems(arr) {
   if (arr.length === 0) {
     const noResultsMessege = document.createElement("li");
     noResultsMessege.textContent = "No Results Found";
+    noResultsMessege.classList.add("noResultsMessege")
     menu.append(noResultsMessege);
   } else {
     arr.forEach(function (item) {

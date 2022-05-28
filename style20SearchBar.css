@@ -2,13 +2,26 @@
   border: solid;
   border-color: blue;
 }
+
 .fullbody {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(168, 168, 229);
 }
+
 .input-Window{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+}
+.noResultsMessege{
+  font-weight: bold;
+  padding: 10px;
+  color: red;
+}
+
+.menu .il{
+  background-color: rgb(28, 28, 255);
+  padding:5px;
 }
