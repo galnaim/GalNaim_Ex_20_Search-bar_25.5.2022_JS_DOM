@@ -1,3 +1,4 @@
+// אין לי הצעות ייעול מבחינת קוד, זה לדעתי מושלם. רק על עיצוב יש מה לעשות
 const menu = document.querySelector(".menu");
 const inputWindow = document.querySelector(".input-Window");
 let fruits = ["apple", "banana", "orange", "peach", "applebees", "bananasplit"];
@@ -19,7 +20,6 @@ function displayitems(arr) {
 }
 displayitems(fruits);
 
-
 inputWindow.oninput = checkwords;
 function checkwords() {
   let input = inputWindow.value;
@@ -28,4 +28,4 @@ function checkwords() {
   });
 
   displayitems(filtered);
-};
+}
